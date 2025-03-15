@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heaven Garden</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db404d10d7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <h1>My Garden 🌱</h1>
+</header>
+<main>
+    <!-- PLOTS -->
+    <section id="plot-ctn"></section>
+
+    <!-- ERROR MESSAGE -->
+    <p id="plot-error-message"></p>
+</main>
+<footer>
+    <!-- TOTAL USER CURRENCY -->
+    <div class="user-currency-ctn">
+        <span id="user-currency-total"></span>
+        <i class="fa-solid fa-coins"></i>
+    </div>
+
+    <!-- ADD/REMOVE BUTTON -->
+    <div class="plot-add-ctn">
+        <button class="plot-add-btn" onclick="addPlot()">Add a plot <i class="fa-solid fa-plus"></i></button>
+        <p><span id="plot-price"></span></p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
